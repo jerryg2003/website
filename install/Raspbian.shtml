@@ -15,7 +15,7 @@
 <body>
 <!--#include virtual="/Header.shtml" -->
 
-<!--#include virtual="/download/Sidebar.shtml" -->
+<!--#include virtual="../download/Sidebar.shtml" -->
 <div id="mainContent">
 
 <h1>Installing JMRI on Raspbian</h1>
@@ -27,17 +27,24 @@
 	<li><a href="#notes">Notes</a>
 </ul>
 
-<p class="important">These instructions describe the installation of JMRI
-on a Raspberry Pi system running the Raspbian OS. There's also a Install help page for <a href="Linux.shtml">other flavors of Linux</a>.</p>
+<p class="noted">These instructions describe the installation of JMRI on a Raspberry Pi system running 
+the Raspbian OS. There's also a Install help page for <a href="Linux.shtml">other flavors of Linux</a>.</p>
+
+<p class="noted">The Raspberry Pi has many applications in embedded electronics, including for
+model railroading. <a href="../help/en/html/hardware/pi/index.shtml">Click here for information </a>
+on using the Pi's GPIO pins under JMRI. Other connections are also possible using either a 
+<a href="../help/en/html/hardware/USBtoSerial.shtml">USB connection</a> or via the Raspberry Pi's built in serial ports.</p>
+
 <p>The Raspberry Pi is becoming increasingly popular as a small and cheap computer.
 Raspbian is based on Debian and is recognized as being a very user friendly distribution.<br>
-JMRI installation consists of two stages: install Java and install JMRI.
+JMRI installation consists of two stages: install Java and install JMRI.</p>
+
 
 <a id="prebuilt_image"></a>
 <h2>Pre-Built Image Available</h2>
 <ul>
   <li>A free RaspberryPi image, completely configured with JMRI, auto-identify logic for many popular DCC systems
-  and its own wifi access point, is available for download <a href="https://mstevetodd.com/rpi" target=_new>[here]</a>.
+  and its own wifi access point, is available for download <a href="https://mstevetodd.com/rpi" target="_blank">[here]</a>.
 </ul> 
 
 <a id="installation"></a>
@@ -210,14 +217,15 @@ on the PI for this to work. See <code>raspi-config</code>
 <h3>Errors</h3>
 <p>If you have any problems, get back to the <a href="https://groups.io/g/jmriusers">JMRI users</a> Groups.io.</p>
 
-<a name="documentation"></a><h2>Documentation</h2>
+<a name="documentation" id="documentation"></a><h2>Documentation</h2>
 <h3>JMRI Help</h3>
-<a href="https://groups.io/g/jmriusers/files/Raspberry%20Pi">JMRI Users Raspberry Pi Files area (member login required)</a>
-<h3>Third Party info</h3>
-<a href="https://www.raspberrypi.org/help/">Raspberrypi.org online Help</a>.</p>
+<p><a href="https://groups.io/g/jmriusers/files/Raspberry%20Pi">JMRI Users Raspberry Pi Files area (member login required)</a>
 
-<p>(Rev 4.2, updated 21 Jan 2016 based on tips from [1] <a id="suzie">Suzie Tall</a>, [2] <a id="dave">Dave Sand</a>,
-[3] <a id="scott">Scott Jay</a> and [4] <a id="david">David McMorran</a>).
+<h3>Third Party info</h3>
+<p><a href="https://www.raspberrypi.org/help/">Raspberrypi.org online Help</a>.</p>
+
+<p>(Rev 4.2, updated 21 Jan 2016 based on tips from [1] <a name="suzie" id="suzie">Suzie Tall</a>, [2] <a name="dave" id="dave">Dave Sand</a>,
+[3] <a name="Scott" id="scott">Scott Jay</a> and [4] <a name="david" id="david">David McMorran</a>).
 </p>
 
 <!-- /Footer -->
