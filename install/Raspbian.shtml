@@ -27,13 +27,14 @@
 	<li><a href="#notes">Notes</a>
 </ul>
 
-<p class="noted">These instructions describe the installation of JMRI on a Raspberry Pi system running 
-the Raspbian OS. There's also a Install help page for <a href="Linux.shtml">other flavors of Linux</a>.</p>
-
-<p class="noted">The Raspberry Pi has many applications in embedded electronics, including for
-model railroading. <a href="../help/en/html/hardware/pi/index.shtml">Click here for information </a>
-on using the Pi's GPIO pins under JMRI. Other connections are also possible using either a 
-<a href="../help/en/html/hardware/USBtoSerial.shtml">USB connection</a> or via the Raspberry Pi's built in serial ports.</p>
+<p class="noted">
+These instructions describe the installation of <b>JMRI on a Raspberry Pi</b> running 
+the Raspbian OS. There's also a Install help page for <a href="Linux.shtml">other flavors of Linux</a>.
+<br><br>
+In addition, a <b>Raspberry Pi can be used with JMRI </b>to control almost anything on your model railroad.
+<a href="../help/en/html/hardware/pi/index.shtml">Click here for information </a>
+on using the Pi's GPIO pins under JMRI.
+</p>
 
 <p>The Raspberry Pi is becoming increasingly popular as a small and cheap computer.
 Raspbian is based on Debian and is recognized as being a very user friendly distribution.<br>
